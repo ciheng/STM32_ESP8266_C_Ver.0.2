@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ch m, 1, LIC=585GK-ZUZ6V-9UW4U-SCNLK-BNK0N-V2AA5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.61.0.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+D:\ESP8266\STM32_ESP8266_myVer\USER\ATK_ESP8266.uvprojx
+Project File Date:  09/15/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\HARDWARE\ESP8266\esp8266.h(42): warning:  #1295-D: Deprecated declaration esp8266_receive_data - give arg types
+  u8* esp8266_receive_data();
+main.c(26): warning:  #260-D: explicit type is missing ("int" assumed)
+  extern flag;
+main.c(56): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  	 atk_8266_ip_set(work_mode,PC_IP);							
+main.c(92): warning:  #111-D: statement is unreachable
+  			esp8266_quit_trans();
+main.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=12514 RO-data=998 RW-data=84 ZI-data=1113348  
+FromELF: creating hex file...
+"..\OBJ\ATK_ESP8266.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil.STM32F4xx_DFP.1.0.8
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\keil\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
